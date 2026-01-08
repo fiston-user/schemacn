@@ -1,0 +1,17 @@
+{
+  "name": "schemacn",
+  "version": "0.1.0",
+  "description": "Schema to shadcn CRUD pages",
+  "type": "module",
+  "bin": {
+    "schemacn": "src/cli.js"
+  },
+  "scripts": {
+    "dev": "node src/cli.js",
+    "test": "node src/cli.js --help"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "license": "MIT"
+}
