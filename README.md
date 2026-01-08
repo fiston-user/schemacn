@@ -2,6 +2,8 @@
 
 SchemaCN turns Prisma schemas into ready-to-use shadcn CRUD pages for Next.js App Router.
 
+![SchemaCN demo](assets/list-demo.png)
+
 ## Why
 
 Indie devs ship CRUD apps every week. SchemaCN removes the glue work between schema, forms, tables, and pages.
