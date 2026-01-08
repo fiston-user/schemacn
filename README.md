@@ -1,5 +1,8 @@
 # SchemaCN
 
+[![npm version](https://img.shields.io/npm/v/schemacn)](https://www.npmjs.com/package/schemacn)
+[![CI](https://github.com/fiston-user/schemacn/actions/workflows/ci.yml/badge.svg)](https://github.com/fiston-user/schemacn/actions/workflows/ci.yml)
+
 SchemaCN turns Prisma schemas into ready-to-use shadcn CRUD pages for Next.js App Router.
 
 ![SchemaCN demo](assets/list-demo.png)
@@ -23,6 +26,12 @@ npx schemacn generate --schema ./prisma/schema.prisma --out ./
 ```
 
 By default, SchemaCN writes pages and components to your app folder. Adjust output with `--out`.
+
+## Install
+
+```bash
+npm install -D schemacn
+```
 
 ## Config file
 
